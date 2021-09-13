@@ -1,0 +1,106 @@
+"a","Find...",,,"1631327821396","pom.xml"
+"a","EditorChange",,,"1631327880994","pom.xml"
+"a","Down",,,"1631328369593","pom.xml"
+"a","Down",,,"1631328370111","pom.xml"
+"a","Down",,,"1631328370145","pom.xml"
+"a","Down",,,"1631328370180","pom.xml"
+"a","Down",,,"1631328370215","pom.xml"
+"a","Down",,,"1631328370249","pom.xml"
+"a","Down",,,"1631328370282","pom.xml"
+"a","Down",,,"1631328370317","pom.xml"
+"a","Down",,,"1631328370351","pom.xml"
+"a","Down",,,"1631328370386","pom.xml"
+"a","Down",,,"1631328370421","pom.xml"
+"a","Down",,,"1631328370454","pom.xml"
+"a","Down",,,"1631328371377","pom.xml"
+"a","Up",,,"1631328371947","pom.xml"
+"a","Up",,,"1631328372296","pom.xml"
+"a","Down",,,"1631328372709","pom.xml"
+"a","Right",,,"1631328373030","pom.xml"
+"a","Right",,,"1631328373544","pom.xml"
+"a","Right",,,"1631328373577","pom.xml"
+"a","Right",,,"1631328373612","pom.xml"
+"a","Right",,,"1631328373647","pom.xml"
+"a","Right",,,"1631328373681","pom.xml"
+"a","Right",,,"1631328373715","pom.xml"
+"a","Right",,,"1631328373749","pom.xml"
+"a","Right",,,"1631328373783","pom.xml"
+"a","Right",,,"1631328373817","pom.xml"
+"a","Right",,,"1631328374084","pom.xml"
+"a","Right",,,"1631328374285","pom.xml"
+"a","Backspace",,,"1631328380746","pom.xml"
+"e","<?xml version=""1.0"" encoding=""UTF-8""?>
+<project xmlns=""http://maven.apache.org/POM/4.0.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
+	xsi:schemaLocation=""http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.5.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>br.org.dag.spring</groupId>
+	<artifactId>springdemo</artifactId>
+	<version>1.0</version>
+	<name>HelloWorldSpringIntellij</name>
+	<description>Demo project for Spring Boot in Intellij</description>
+	<properties>
+		<java.version>1</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+","","0","1631328380760","pom.xml"
+"a","Backspace",,,"1631328380908","pom.xml"
+"e","","1","724","1631328380955","pom.xml"
+"e","8","","724","1631328382110","pom.xml"
+"k","8",,"725","1631328382112","pom.xml"
+"a","EditorChange",,,"1631328459883","pom.xml"
+"a","Undefined",,,"1631328562041","pom.xml"
+"a","EditorChange",,,"1631328690633","pom.xml"
+"a","Undefined",,,"1631329126613","pom.xml"
+"a","EditorChange",,,"1631329128261","pom.xml"
+"a","Creating class Spring.PrimeiroControlador",,,"1631329214247","pom.xml"

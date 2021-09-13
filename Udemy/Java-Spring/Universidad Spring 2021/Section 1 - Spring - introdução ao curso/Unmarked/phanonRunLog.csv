@@ -1,0 +1,262 @@
+"r","9","""C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"" ""-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=49731:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin"" -Dfile.encoding=UTF-8 -classpath ""C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij\target\classes;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.5.4\spring-boot-starter-thymeleaf-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.4\spring-boot-starter-logging-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-classic\1.2.5\logback-classic-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-core\1.2.5\logback-core-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.12.RELEASE\thymeleaf-spring5-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf\3.0.12.RELEASE\thymeleaf-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.4\spring-boot-devtools-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar"" Spring.HelloWorldSpringIntellijApplication",,"Run",,"1631328466188","unmarked.txt"
+"o","9",,"
+",,"stdout","1631328468949",
+"o","9",,"  .   ____          _            __ _ _
+",,"stdout","1631328468949",
+"o","9",," /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \",,"stdout","1631328468949",
+"o","9",,"
+",,"stdout","1631328468949",
+"o","9",,"( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+",,"stdout","1631328468949",
+"o","9",," \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+",,"stdout","1631328468949",
+"o","9",,"  '  |____| .__|_| |_|_| |_\__, | / / / /",,"stdout","1631328468949",
+"o","9",,"
+",,"stdout","1631328468949",
+"o","9",," =========|_|==============|___/=/_/_/_/
+",,"stdout","1631328468949",
+"o","9",," :: Spring Boot ::                (v2.5.4)
+",,"stdout","1631328468952",
+"o","9",,"
+",,"stdout","1631328468952",
+"o","9",,"2021-09-10 23:47:49.154  INFO 13972 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Starting HelloWorldSpringIntellijApplication using Java 1.8.0_301 on CPX-7Y4BZ2XHJPW with PID 13972 (C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij\target\classes started by luiz.f.gadelha in C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij)
+",,"stdout","1631328469161",
+"o","9",,"2021-09-10 23:47:49.162  INFO 13972 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : No active profile set, falling back to default profiles: default
+",,"stdout","1631328469163",
+"o","9",,"2021-09-10 23:47:49.377  INFO 13972 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+",,"stdout","1631328469377",
+"o","9",,"2021-09-10 23:47:49.377  INFO 13972 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+",,"stdout","1631328469377",
+"o","9",,"2021-09-10 23:47:52.184  INFO 13972 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+",,"stdout","1631328472185",
+"o","9",,"2021-09-10 23:47:52.211  INFO 13972 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+",,"stdout","1631328472211",
+"o","9",,"2021-09-10 23:47:52.212  INFO 13972 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+",,"stdout","1631328472212",
+"o","9",,"2021-09-10 23:47:52.437  INFO 13972 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+",,"stdout","1631328472438",
+"o","9",,"2021-09-10 23:47:52.438  INFO 13972 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3060 ms
+",,"stdout","1631328472438",
+"o","9",,"2021-09-10 23:47:53.712  WARN 13972 --- [  restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+",,"stdout","1631328473712",
+"o","9",,"2021-09-10 23:47:53.825  INFO 13972 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+",,"stdout","1631328473826",
+"o","9",,"2021-09-10 23:47:53.900  INFO 13972 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+",,"stdout","1631328473900",
+"o","9",,"2021-09-10 23:47:53.926  INFO 13972 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Started HelloWorldSpringIntellijApplication in 5.96 seconds (JVM running for 7.459)
+",,"stdout","1631328473927",
+"o","9",,"2021-09-10 23:53:21.618  INFO 13972 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+",,"stdout","1631328801619",
+"o","9",,"2021-09-10 23:53:21.619  INFO 13972 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+",,"stdout","1631328801619",
+"o","9",,"2021-09-10 23:53:21.620  INFO 13972 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+",,"stdout","1631328801620",
+"o","9",,"
+Process finished with exit code -1
+",,"system","1631329711177",
+"r","10","""C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"" ""-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=56527:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin"" -Dfile.encoding=UTF-8 -classpath ""C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij\target\classes;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.5.4\spring-boot-starter-thymeleaf-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.4\spring-boot-starter-logging-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-classic\1.2.5\logback-classic-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-core\1.2.5\logback-core-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.12.RELEASE\thymeleaf-spring5-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf\3.0.12.RELEASE\thymeleaf-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.4\spring-boot-devtools-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar"" Spring.HelloWorldSpringIntellijApplication",,"Run",,"1631329719891","unmarked.txt"
+"o","10",,"
+",,"stdout","1631329724134",
+"o","10",,"  .   ____          _            __ _ _
+",,"stdout","1631329724134",
+"o","10",," /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \",,"stdout","1631329724134",
+"o","10",,"
+",,"stdout","1631329724134",
+"o","10",,"( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+",,"stdout","1631329724134",
+"o","10",," \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+",,"stdout","1631329724134",
+"o","10",,"  '  |____| .__|_| |_|_| |_\__, | / / / /
+",,"stdout","1631329724134",
+"o","10",," =========|_|==============|___/=/_/_/_/
+",,"stdout","1631329724134",
+"o","10",," :: Spring Boot ::                (v2.5.4)
+",,"stdout","1631329724139",
+"o","10",,"
+",,"stdout","1631329724139",
+"o","10",,"2021-09-11 00:08:44.482  INFO 24080 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Starting HelloWorldSpringIntellijApplication using Java 1.8.0_301 on CPX-7Y4BZ2XHJPW with PID 24080 (C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij\target\classes started by luiz.f.gadelha in C:\Users\luiz.f.gadelha\Documents\GitPessoal\Udemy\Java-Spring\HelloWorldSpring\Intellij)
+",,"stdout","1631329724498",
+"o","10",,"2021-09-11 00:08:44.499  INFO 24080 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : No active profile set, falling back to default profiles: default
+",,"stdout","1631329724499",
+"o","10",,"2021-09-11 00:08:44.756  INFO 24080 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+",,"stdout","1631329724756",
+"o","10",,"2021-09-11 00:08:44.756  INFO 24080 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+",,"stdout","1631329724757",
+"o","10",,"2021-09-11 00:08:49.575  INFO 24080 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+",,"stdout","1631329729575",
+"o","10",,"2021-09-11 00:08:49.609  INFO 24080 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+",,"stdout","1631329729609",
+"o","10",,"2021-09-11 00:08:49.610  INFO 24080 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+",,"stdout","1631329729610",
+"o","10",,"2021-09-11 00:08:49.911  INFO 24080 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+",,"stdout","1631329729912",
+"o","10",,"2021-09-11 00:08:49.912  INFO 24080 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5153 ms
+",,"stdout","1631329729912",
+"o","10",,"2021-09-11 00:08:51.003  WARN 24080 --- [  restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+",,"stdout","1631329731003",
+"o","10",,"2021-09-11 00:08:51.143  INFO 24080 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+",,"stdout","1631329731145",
+"o","10",,"2021-09-11 00:08:51.285  INFO 24080 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+",,"stdout","1631329731287",
+"o","10",,"2021-09-11 00:08:51.355  INFO 24080 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Started HelloWorldSpringIntellijApplication in 8.637 seconds (JVM running for 10.988)
+",,"stdout","1631329731356",
+"o","10",,"2021-09-11 00:09:18.616  INFO 24080 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+",,"stdout","1631329758617",
+"o","10",,"2021-09-11 00:09:18.617  INFO 24080 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+",,"stdout","1631329758617",
+"o","10",,"2021-09-11 00:09:18.617  INFO 24080 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+",,"stdout","1631329758617",
+"o","10",,"
+Process finished with exit code -1
+",,"system","1631329784702",
+"r","2","""C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"" ""-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=56560:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin"" -Dfile.encoding=UTF-8 -classpath ""C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.5.4\spring-boot-starter-thymeleaf-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.4\spring-boot-starter-logging-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-classic\1.2.5\logback-classic-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-core\1.2.5\logback-core-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.12.RELEASE\thymeleaf-spring5-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf\3.0.12.RELEASE\thymeleaf-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.4\spring-boot-devtools-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar"" Spring.HelloWorldSpringIntellijApplication",,"Run",,"1631489349430","unmarked.txt"
+"o","2",,"
+",,"stdout","1631489353478",
+"o","2",,"  .   ____          _            __ _ _
+",,"stdout","1631489353478",
+"o","2",," /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+",,"stdout","1631489353478",
+"o","2",,"( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+",,"stdout","1631489353479",
+"o","2",," \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+",,"stdout","1631489353479",
+"o","2",,"  '  |____| .__|_| |_|_| |_\__, | / / / /
+",,"stdout","1631489353479",
+"o","2",," =========|_|==============|___/=/_/_/_/
+",,"stdout","1631489353479",
+"o","2",," :: Spring Boot ::                (v2.5.4)
+",,"stdout","1631489353480",
+"o","2",,"
+",,"stdout","1631489353480",
+"o","2",,"2021-09-12 20:29:13.636  INFO 11004 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Starting HelloWorldSpringIntellijApplication using Java 1.8.0_301 on CPX-7Y4BZ2XHJPW with PID 11004 (C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes started by luiz.f.gadelha in C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso)
+",,"stdout","1631489353641",
+"o","2",,"2021-09-12 20:29:13.641  INFO 11004 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : No active profile set, falling back to default profiles: default
+",,"stdout","1631489353641",
+"o","2",,"2021-09-12 20:29:13.821  INFO 11004 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+",,"stdout","1631489353822",
+"o","2",,"2021-09-12 20:29:13.822  INFO 11004 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+",,"stdout","1631489353822",
+"o","2",,"2021-09-12 20:29:17.398  INFO 11004 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+",,"stdout","1631489357399",
+"o","2",,"2021-09-12 20:29:17.437  INFO 11004 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+",,"stdout","1631489357437",
+"o","2",,"2021-09-12 20:29:17.437  INFO 11004 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+",,"stdout","1631489357438",
+"o","2",,"2021-09-12 20:29:17.781  INFO 11004 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+",,"stdout","1631489357781",
+"o","2",,"2021-09-12 20:29:17.781  INFO 11004 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3958 ms
+",,"stdout","1631489357781",
+"o","2",,"2021-09-12 20:29:18.818  WARN 11004 --- [  restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+",,"stdout","1631489358818",
+"o","2",,"2021-09-12 20:29:18.925  INFO 11004 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+",,"stdout","1631489358926",
+"o","2",,"2021-09-12 20:29:19.045  INFO 11004 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+",,"stdout","1631489359046",
+"o","2",,"2021-09-12 20:29:19.068  INFO 11004 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Started HelloWorldSpringIntellijApplication in 7.626 seconds (JVM running for 9.705)
+",,"stdout","1631489359068",
+"o","2",,"2021-09-12 20:29:27.633  INFO 11004 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+",,"stdout","1631489367633",
+"o","2",,"2021-09-12 20:29:27.633  INFO 11004 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+",,"stdout","1631489367633",
+"o","2",,"2021-09-12 20:29:27.634  INFO 11004 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+",,"stdout","1631489367634",
+"o","2",,"
+Process finished with exit code -1
+",,"system","1631489899801",
+"r","3","""C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"" ""-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=51782:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin"" -Dfile.encoding=UTF-8 -classpath ""C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.5.4\spring-boot-starter-thymeleaf-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.4\spring-boot-starter-logging-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-classic\1.2.5\logback-classic-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-core\1.2.5\logback-core-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.12.RELEASE\thymeleaf-spring5-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf\3.0.12.RELEASE\thymeleaf-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.4\spring-boot-devtools-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar"" Spring.HelloWorldSpringIntellijApplication",,"Run",,"1631489909504","unmarked.txt"
+"o","3",,"
+",,"stdout","1631489914836",
+"o","3",,"  .   ____          _            __ _ _
+",,"stdout","1631489914836",
+"o","3",," /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+",,"stdout","1631489914836",
+"o","3",,"( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+",,"stdout","1631489914836",
+"o","3",," \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+",,"stdout","1631489914836",
+"o","3",,"  '  |____| .__|_| |_|_| |_\__, | / / / /
+",,"stdout","1631489914837",
+"o","3",," =========|_|==============|___/=/_/_/_/
+",,"stdout","1631489914837",
+"o","3",," :: Spring Boot ::                (v2.5.4)
+",,"stdout","1631489914840",
+"o","3",,"
+",,"stdout","1631489914840",
+"o","3",,"2021-09-12 20:38:35.047  INFO 19420 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Starting HelloWorldSpringIntellijApplication using Java 1.8.0_301 on CPX-7Y4BZ2XHJPW with PID 19420 (C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes started by luiz.f.gadelha in C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso)
+",,"stdout","1631489915056",
+"o","3",,"2021-09-12 20:38:35.056  INFO 19420 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : No active profile set, falling back to default profiles: default
+",,"stdout","1631489915057",
+"o","3",,"2021-09-12 20:38:35.205  INFO 19420 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+",,"stdout","1631489915205",
+"o","3",,"2021-09-12 20:38:35.205  INFO 19420 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+",,"stdout","1631489915205",
+"o","3",,"2021-09-12 20:38:38.168  INFO 19420 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+",,"stdout","1631489918169",
+"o","3",,"2021-09-12 20:38:38.198  INFO 19420 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+",,"stdout","1631489918199",
+"o","3",,"2021-09-12 20:38:38.199  INFO 19420 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+",,"stdout","1631489918200",
+"o","3",,"2021-09-12 20:38:38.870  INFO 19420 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+",,"stdout","1631489918873",
+"o","3",,"2021-09-12 20:38:38.871  INFO 19420 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3665 ms
+",,"stdout","1631489918873",
+"o","3",,"2021-09-12 20:38:40.898  WARN 19420 --- [  restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+",,"stdout","1631489920899",
+"o","3",,"2021-09-12 20:38:41.088  INFO 19420 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+",,"stdout","1631489921089",
+"o","3",,"2021-09-12 20:38:41.230  INFO 19420 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+",,"stdout","1631489921231",
+"o","3",,"2021-09-12 20:38:41.272  INFO 19420 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Started HelloWorldSpringIntellijApplication in 7.81 seconds (JVM running for 11.156)
+",,"stdout","1631489921272",
+"o","3",,"2021-09-12 20:38:46.442  INFO 19420 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+",,"stdout","1631489926443",
+"o","3",,"2021-09-12 20:38:46.443  INFO 19420 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+",,"stdout","1631489926443",
+"o","3",,"2021-09-12 20:38:46.444  INFO 19420 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+",,"stdout","1631489926444",
+"o","3",,"2021-09-12 20:38:46.480  INFO 19420 --- [nio-9090-exec-1] Spring.PrimeiroControlador               : Executando o controlador
+",,"stdout","1631489926480",
+"o","3",,"
+Process finished with exit code -1
+",,"system","1631490060297",
+"r","2","""C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"" ""-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=58889:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin"" -Dfile.encoding=UTF-8 -classpath ""C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.5.4\spring-boot-starter-thymeleaf-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.4\spring-boot-starter-logging-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-classic\1.2.5\logback-classic-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\ch\qos\logback\logback-core\1.2.5\logback-core-1.2.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.12.RELEASE\thymeleaf-spring5-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\thymeleaf\3.0.12.RELEASE\thymeleaf-3.0.12.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.4\spring-boot-devtools-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\luiz.f.gadelha\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar"" Spring.HelloWorldSpringIntellijApplication",,"Run",,"1631490969032","unmarked.txt"
+"o","2",,"
+",,"stdout","1631490972320",
+"o","2",,"  .   ____          _            __ _ _
+",,"stdout","1631490972320",
+"o","2",," /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+",,"stdout","1631490972320",
+"o","2",,"( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \",,"stdout","1631490972320",
+"o","2",,"
+",,"stdout","1631490972320",
+"o","2",," \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+",,"stdout","1631490972320",
+"o","2",,"  '  |____| .__|_| |_|_| |_\__, | / / / /
+",,"stdout","1631490972320",
+"o","2",," =========|_|==============|___/=/_/_/_/
+",,"stdout","1631490972320",
+"o","2",," :: Spring Boot ::                (v2.5.4)
+",,"stdout","1631490972322",
+"o","2",,"
+",,"stdout","1631490972322",
+"o","2",,"2021-09-12 20:56:12.503  INFO 18268 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : Starting HelloWorldSpringIntellijApplication using Java 1.8.0_301 on CPX-7Y4BZ2XHJPW with PID 18268 (C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso\target\classes started by luiz.f.gadelha in C:\Users\luiz.f.gadelha\Documents\GitDAG\Udemy\Java-Spring\Universidad Spring 2021\Section 1 - Spring - introdução ao curso)
+",,"stdout","1631490972511",
+"o","2",,"2021-09-12 20:56:12.511  INFO 18268 --- [  restartedMain] S.HelloWorldSpringIntellijApplication    : No active profile set, falling back to default profiles: default
+",,"stdout","1631490972512",
+"o","2",,"2021-09-12 20:56:12.746  INFO 18268 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+",,"stdout","1631490972746",
+"o","2",,"2021-09-12 20:56:12.746  INFO 18268 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+",,"stdout","1631490972746",
+"o","2",,"2021-09-12 20:56:15.722  INFO 18268 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+",,"stdout","1631490975723",
+"o","2",,"2021-09-12 20:56:15.757  INFO 18268 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+",,"stdout","1631490975758",
+"o","2",,"2021-09-12 20:56:15.758  INFO 18268 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+",,"stdout","1631490975758",
+"o","2",,"2021-09-12 20:56:16.051  INFO 18268 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+",,"stdout","1631490976052",
+"o","2",,"2021-09-12 20:56:16.052  INFO 18268 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3305 ms
+",,"stdout","1631490976052",
+"o","2",,"
+Process finished with exit code -1
+",,"system","1631490976437",
