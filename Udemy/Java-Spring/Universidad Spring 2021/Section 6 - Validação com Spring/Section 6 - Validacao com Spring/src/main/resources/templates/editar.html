@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados da pessoa</title>
+
+</head>
+<body>
+<h1>Dados da pessoa</h1>
+
+<form action="/salvar" method="post" th:object="${pessoa}">
+    <input type="hidden" name="id_pessoa" th:field="*{id_pessoa}"/><br>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" th:field="*{nome}"><br>
+    <span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}">Erro em nome</span>
+
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" th:field="*{sobrenome}"> <br>
+    <span th:if="${#fields.hasErrors('sobrenome')}" th:errors="*{sobrenome}">Erro em sobrenome</span>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" th:field="*{email}"> <br>
+    <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Erro em email</span>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" name="telefone" th:field="*{telefone}"> <br>
+    <span th:if="${#fields.hasErrors('telefone')}" th:errors="*{telefone}">Erro em telefone</span>
+
+    <input type="submit" name="salvar" value="Salvar">
+</form>
+
+<a href="/">Voltar</a>
+</body>
+</html>
