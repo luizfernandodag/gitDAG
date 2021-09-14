@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados da pessoa</title>
+
+</head>
+<body>
+<h1>Dados da pessoa</h1>
+
+<form action="/salvar" method="post" th:object="${pessoa}">
+    <input type="hidden" name="id_pessoa" th:field="*{id_pessoa}"/><br>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" th:field="*{nome}"><br>
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" th:field="*{sobrenome}"> <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" th:field="*{email}"> <br>
+    <label for="telefone">Telefone:</label>
+    <input type="tel" name="telefone" th:field="*{telefone}"> <br>
+    <input type="submit" name="salvar" value="Salvar">
+</form>
+
+<a href="/">Voltar</a>
+</body>
+</html>
