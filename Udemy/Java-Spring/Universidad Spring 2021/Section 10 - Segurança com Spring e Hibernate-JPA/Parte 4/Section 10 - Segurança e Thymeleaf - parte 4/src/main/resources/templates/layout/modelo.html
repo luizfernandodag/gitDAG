@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header th:fragment="header">
+    <h1 th:text="#{modelo.header.titulo}"></h1>
+</header>
+
+</body>
+<footer th:fragment="footer">
+    <a th:href="@{/(lang=pt)}">PT</a>|
+    <a th:href="@{/(lang=en)}">EN</a>|
+    [[#{modelo.footer.pagina}]]
+        <a href="luizfernandodag@github.com" target="_blank">DAG.com</a>
+    <br>
+    <br>
+    <form method="POST" th:action="@{/logout}">
+        <a href="#" onclick="this.parentNode.submit()">[[#{logout}]]</a>
+        <b> User:</b> <span sec:authentication="name">Usuário logado:</span>|
+        <b>Roles:</b> <span sec:authentication="principal.authorities">Roles</span>|
+    </form>
+</footer>
+
+</html>

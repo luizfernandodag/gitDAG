@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xlmns:th="http://www.thymeleaf.org"
+
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+      xmlns:th="http://www.springframework.org/schema/data/jaxb" xmlns:xlmns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>[[#{barra.botoes.editar}]]</title>
+</head>
+<body>
+<section th:fragment="botoesEditar">
+    <div id="action" class="py-4 mb-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                <a href="@{/}" class="btn btn-light btn-block">
+                <i class="fas fa-arrow-left">[[#acoes.voltar]]</i>
+                </a>
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-sucess btn-block">
+                        <i class="fas fa-check">[[#{acoes.salvar}]]</i>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <a th;href="@{/deletar/}+ @{pessoa.id_pessoa}  " class="btn btn-danger btn-block">
+                        <i class="fas fa-trash">[[#{acoes.deletar}]]</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

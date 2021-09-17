@@ -42,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ENABLED_META" value="false" />
     <property name="META_SYNC_MODE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Section 9 - Segurança com Spring Framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

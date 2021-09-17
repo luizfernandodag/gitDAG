@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xlmns:th="http://www.thymeleaf.org"
+
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+      xmlns:th="http://www.springframework.org/schema/data/jaxb" xmlns:xlmns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>[[#{editar.editar.cliente}]]</title>
+</head>
+<body>
+<section th:fragment="editarCliente">
+    <form action="@{/salvar}" th:object="${pessoa}" method="POST" class="was-validated">
+        <input type="hidden" name="id_pessoa" th:field="*{id_pessoa}"/>
+        <section th:replace="layout/botoesEditar :: botoesEditar"></section>
+    </form>
+</section>
+
+</body>
+</html>

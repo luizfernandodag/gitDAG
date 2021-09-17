@@ -24,15 +24,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="7a0dbd30-8aaf-4554-a2d8-d8d0d489f186">
-        <schema name="test" object-types="table, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="7a0dbd30-8aaf-4554-a2d8-d8d0d489f186">
-      <console name="Connection" type="STANDARD" schema="test" session="Main">select
+      <console name="Connection" type="STANDARD" schema="test" session="Main"><![CDATA[select
     p.email,
     p.id_pessoa,
     p.nome,
@@ -40,7 +36,7 @@
     p.sobrenome,
     p.telefone
 from
-    pessoa p;</console>
+    pessoa p;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -304,7 +300,6 @@ from
           <content-type name="JSON5" enabled="true" />
           <content-type name="Groovy" enabled="true" />
           <content-type name="YAML" enabled="true" />
-          <content-type name="Bash" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
       </qualified-text-editor>
