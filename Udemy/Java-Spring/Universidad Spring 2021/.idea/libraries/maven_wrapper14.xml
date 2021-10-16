@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-wrapper14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Section 2 - Introdução a Spring e Thymeleaf/Section 2 - HelloWorld com Thymeleaf/.mvn/wrapper/maven-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

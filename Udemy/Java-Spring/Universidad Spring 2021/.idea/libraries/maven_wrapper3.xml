@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-wrapper3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Section 3 - Spring Data/Section 3 - Spring Data/.mvn/wrapper/maven-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
